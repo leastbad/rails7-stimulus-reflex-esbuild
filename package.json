@@ -13,5 +13,9 @@
   "scripts": {
     "build": "node esbuild.config.js",
     "build:default": "esbuild app/javascript/*.* --bundle --sourcemap --outdir=app/assets/builds"
+  },
+  "resolutions": {
+    "cable_ready": "git+ssh://git@github.com:stimulusreflex/cable_ready",
+    "stimulus_reflex": "git+ssh://git@github.com:stimulusreflex/stimulus_reflex"
   }
 }
